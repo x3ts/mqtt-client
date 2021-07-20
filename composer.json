@@ -1,0 +1,25 @@
+{
+	"name": "x3ts/mqtt-client",
+	"description": "PHP mqtt client",
+	"type": "library",
+	"require": {
+		"x3ts/mqtt-protocol": "^1.0",
+		"ext-sockets": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.5",
+		"swoole/ide-helper": "4.7.0"
+	},
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"x3ts\\mqtt\\client\\": "./src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "TingSong-Syu",
+			"email": "rek@rek.me"
+		}
+	]
+}
